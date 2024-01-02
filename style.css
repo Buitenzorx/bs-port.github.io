@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+img {
+
+    width: 20vw;
+    max-width: 100%;
+    height: auto;
+    margin-left: 5cm;
+    margin-top: 0.5cm;
+
+}
+.typing-container {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+#cursor {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+#typed-text {
+    margin-left: 4cm;
+    margin-top: -0.01cm;
+    font-family: Consolas;
+    font-size: 30px;
+
+}
+
+@media (min-width: 768px) {
+    /* Tambahkan aturan CSS khusus untuk layar lebar di atas 768px */
+}
+
+
+.name {
+    font-family: Consolas;
+    font-size: 30px;
+    margin-left: 6.9cm;
+    margin-top: 1cm;
+}
+
+.split-text {
+   display: flex;
+
+}
+
+.right-text {
+    flex: 1;
+    margin-right: 20%;
+    margin-top: -10cm;
+    margin-left: 60%;
+    font-size: 20px;
+    text-align: left;
+}
